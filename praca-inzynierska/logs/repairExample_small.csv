@@ -1,0 +1,25 @@
+Case ID,Activity,Resource,Start Timestamp,Complete Timestamp,Variant,Variant index,(case) creator,(case) variant,(case) variant-index,concept:name,defectFixed,defectType,lifecycle:transition,numberRepairs,org:resource,phoneType
+1,Register,System,1970/01/02 12:23:00.000,1970/01/02 12:23:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Register,,,complete,,System,
+1,Analyze Defect,Tester3,1970/01/02 12:23:00.000,1970/01/02 12:30:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Analyze Defect,,6,complete,,Tester3,T2
+1,Repair (Complex),SolverC1,1970/01/02 12:31:00.000,1970/01/02 12:49:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Repair (Complex),,,complete,,SolverC1,
+1,Test Repair,Tester3,1970/01/02 12:49:00.000,1970/01/02 12:55:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Test Repair,true,,complete,0,Tester3,
+1,Inform User,System,1970/01/02 13:10:00.000,1970/01/02 13:10:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Inform User,,,complete,,System,
+1,Archive Repair,System,1970/01/02 13:10:00.000,1970/01/02 13:10:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Archive Repair,true,,complete,0,System,
+1,End,End,1970/01/02 13:10:00.000,1970/01/02 13:10:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,End,End,End,complete,End,End,End
+10,Register,System,1970/01/01 11:09:00.000,1970/01/01 11:09:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Register,,,complete,,System,
+10,Analyze Defect,Tester2,1970/01/01 11:09:00.000,1970/01/01 11:15:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Analyze Defect,,3,complete,,Tester2,T1
+10,Repair (Simple),SolverS1,1970/01/01 11:35:00.000,1970/01/01 11:42:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Repair (Simple),,,complete,,SolverS1,
+10,Test Repair,Tester6,1970/01/01 11:42:00.000,1970/01/01 11:48:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Test Repair,false,,complete,1,Tester6,
+10,Restart Repair,System,1970/01/01 11:54:00.000,1970/01/01 11:54:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Restart Repair,,,complete,,System,
+10,Repair (Simple),SolverS2,1970/01/01 11:54:00.000,1970/01/01 12:03:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Repair (Simple),,,complete,,SolverS2,
+10,Inform User,System,1970/01/01 11:55:00.000,1970/01/01 11:55:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Inform User,,,complete,,System,
+10,Test Repair,Tester4,1970/01/01 12:03:00.000,1970/01/01 12:09:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Test Repair,true,,complete,2,Tester4,
+10,Archive Repair,System,1970/01/01 12:14:00.000,1970/01/01 12:14:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,Archive Repair,true,,complete,2,System,
+10,End,End,1970/01/01 12:14:00.000,1970/01/01 12:14:00.000,Variant 8,8,Fluxicon Disco,Variant 8,8,End,End,End,complete,End,End,End
+100,Register,System,1970/01/04 02:28:00.000,1970/01/04 02:28:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Register,,,complete,,System,
+100,Analyze Defect,Tester4,1970/01/04 02:28:00.000,1970/01/04 02:36:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Analyze Defect,,8,complete,,Tester4,T2
+100,Repair (Complex),SolverC1,1970/01/04 02:52:00.000,1970/01/04 03:09:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Repair (Complex),,,complete,,SolverC1,
+100,Test Repair,Tester1,1970/01/04 03:09:00.000,1970/01/04 03:18:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Test Repair,true,,complete,0,Tester1,
+100,Inform User,System,1970/01/04 03:20:00.000,1970/01/04 03:20:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Inform User,,,complete,,System,
+100,Archive Repair,System,1970/01/04 03:28:00.000,1970/01/04 03:28:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,Archive Repair,true,,complete,0,System,
+100,End,End,1970/01/04 03:28:00.000,1970/01/04 03:28:00.000,Variant 2,2,Fluxicon Disco,Variant 2,2,End,End,End,complete,End,End,End

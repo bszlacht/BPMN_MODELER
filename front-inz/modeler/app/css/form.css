@@ -1,0 +1,16 @@
+.content-form .form{
+    width:350px;
+    /*height: 976px;*/
+    height:100%;
+    float:left;
+    /* visibility: hidden; */
+    background: rgba(255, 255, 255, 0.3);
+    display: grid;
+    justify-content: center;
+    /*border-style: dotted;*/
+    font-weight:    bold;
+    font-size:      25px;
+    color: #000000;
+}
+
+

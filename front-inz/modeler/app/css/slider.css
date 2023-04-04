@@ -1,0 +1,33 @@
+
+.slider-container {
+    padding:10px 0;
+    height:100%;
+    margin: 0 auto;
+    width: 100%;
+    /*background-color: #666666;*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.value-container {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.value {
+    color: #000000;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.slider {
+    width: 300px;
+    height: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+}
